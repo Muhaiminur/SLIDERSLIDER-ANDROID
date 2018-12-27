@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.cooltechworks.creditcarddesign.CreditCardView
+        android:id="@+id/card"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:card_number="38056789000000000"
+        app:card_holder_name="HARISH SRIDHARAN"
+        app:cvv="522"
+        app:card_expiration="01/17" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse" />
+
+</FrameLayout>
